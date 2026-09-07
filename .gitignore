@@ -1,0 +1,11 @@
+# Data files the notebooks download at runtime (wget cells).
+# The originals live in assets/ — do not commit the downloaded copies.
+*.mat
+*.txt
+*.mat.[0-9]
+*.txt.[0-9]
+!assets/**
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
